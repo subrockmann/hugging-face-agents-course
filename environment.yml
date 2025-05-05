@@ -22,6 +22,7 @@ dependencies:
       - smolagents[litellm]
       - openai
       - langsmith
+      - langfuse
       - streamlit
       - langchain-ollama
       - langchain-openai
