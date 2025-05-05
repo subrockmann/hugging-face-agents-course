@@ -1,0 +1,33 @@
+name: agent
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - pydantic
+  - langchain
+  - langgraph
+  - langchainhub
+  - langchain-openai
+  - ollama
+  - wandb
+ 
+  - pip:
+      - python-dotenv
+      - transformers
+      - smolagents
+      - smolagents[litellm]
+      - openai
+      - langsmith
+      - streamlit
+      - langchain-ollama
+      - langchain-openai
+      - langchain-groq
+      - langchain-community
+      - google-search-results
+      - ipywidgets
+      - gradio_client
+
